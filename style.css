@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo h2{
+     font-size: 2rem;
+    margin-left: 50px;}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    color: #7A8A96;
+    font-size: 1.2rem;
+}
+.username h4{
+    color: #4A5A66;
+    margin-right: 50px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #E8F7FF;
+    color: #2FB3FF;
+
+}    
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.left{
+    width: 40vw;
+    
+}
+h1
+{
+    font-size: 3.5rem;
+    color: #4A5A66;
+}
+p{
+    color: #7A8A96;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+span{
+    color: #2FB3FF;
+}
+
+.right img{
+    width: 30vw;
+}
+button{
+    background-color: #2FB3FF;
+    border-radius: 15px;
+    border: none;
+    font-size: large;
+    width: 15vw;
+    height: 60px;
+    color: white;
+}
